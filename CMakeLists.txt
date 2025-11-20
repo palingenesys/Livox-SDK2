@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.0)
 
 project(livox_sdk2)
 
+add_compile_options(-Wno-error)
+
 set(CMAKE_CXX_STANDARD 11)
 
 message(STATUS "main project dir: " ${PROJECT_SOURCE_DIR})
